@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+        
+    <script src="/5. emailValidation.js">
+        
+    </script>
+    
+</head>
+<body>
+
+<form id="myForm" action="" onsubmit="myFunction()">
+ 
+  First Name: <input type="text" name="firstName" id="firstName" value="">
+  <br>
+  <br>
+  Last Name: <input type="text" name="lastName" id="lastName" value="">
+  <br>
+  <br>
+  E-Mail: <input type="text" name="email" id="email" value=""><span id="emailvalidatation"></span>
+  <br>
+  <br>
+  Gender:
+  <input type="radio" id="male" name="gender" value="male"> Male
+  <input type="radio" id="female" name="gender" value="female"> Female
+  <br>
+  <br>
+  Select book you want to issue:
+  <select name="books" id="books">
+      <option value="book1">Book1</option>
+      <option value="book2">Book2</option>
+      <option value="book3">Book3</option>
+      <option value="book4">Book4</option>
+  </select>
+  <br>
+  <br>
+  <input type="submit" value="Submit" onclick="myFunction()">
+</form> 
+<br><br>
+<button onclick="myFunction()">View your input</button>
+<br><br>
+<p id="formData"></p>
+
+</body>
+</html>
