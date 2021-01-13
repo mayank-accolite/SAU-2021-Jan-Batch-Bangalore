@@ -1,0 +1,113 @@
+body {
+    margin: 10px;
+    padding: 0px;
+    background: rgb(5, 5, 36);
+}
+
+.header {
+    background-color: rgb(5, 5, 36);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 10px;
+
+}
+.box1 p{
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    padding: 2px;
+}
+
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon {
+
+    height: 30px;
+    width: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 2px solid white;
+    border-radius: 100%;
+    padding: 3px;
+}
+
+#profile {
+    margin-top: 10px;
+
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 2PX solid white;
+}
+
+.section {
+    display: flex;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.skillBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skillBox span {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    margin-bottom: 2px;
+    padding: 4px;
+    background-color: cadetblue;
+
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.edu {
+    font-weight: 600;
+   margin: 2px;
+}
+
+.education p {
+    margin: 4px;
+}
+
+.card {
+    border: 2px solid black;
+    margin: 10px;
+
+    border-radius: 15px;
+    padding: 5px;
+    background-color: rgb(242, 247, 248);
+}
+
+
+.internship {
+    padding: 10px;
+}
+
+.card2 {
+    padding-left: 15px;
+    color: white;
+}
